@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "aboutpages",
+  "info": {
+    "name": "Aboutpage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aboutbanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.titletextcontent"
+    },
+    "aboutcomponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.aboutcomponent"
+    },
+    "abouttestimonial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.abouttestimonycomponent"
+    },
+    "baseurl": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.baseurl"
+    },
+    "navigation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.navigation"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.footer"
+    }
+  }
+}

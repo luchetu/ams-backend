@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_headlinecontents",
+  "info": {
+    "name": "headlinecontent",
+    "icon": "arrow-alt-circle-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "smallheadline": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

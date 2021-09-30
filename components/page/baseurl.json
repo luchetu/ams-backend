@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_baseurls",
+  "info": {
+    "name": "baseurl",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "baseurl": {
+      "type": "string"
+    }
+  }
+}

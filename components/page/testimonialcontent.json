@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_testimonialcontents",
+  "info": {
+    "name": "testimonialcontent",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "fullnames": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "testimony": {
+      "type": "text"
+    },
+    "jobtitle": {
+      "type": "string"
+    }
+  }
+}

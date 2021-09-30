@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_testimonialsections",
+  "info": {
+    "name": "testimonialsection",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "testimonialheader": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.textcontent"
+    },
+    "testimonialcontent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.testimonialcontent"
+    }
+  }
+}

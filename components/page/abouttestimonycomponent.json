@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_page_abouttestimonycomponents",
+  "info": {
+    "name": "abouttestimonycomponent",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fullname": {
+      "type": "string"
+    },
+    "jobtittle": {
+      "type": "string"
+    },
+    "testimonycontent": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "backgrounfimage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

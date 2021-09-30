@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_page_imagecontents",
+  "info": {
+    "name": "imagecontent",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "smallheadline": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "imagebutton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.button"
+    },
+    "richcontent": {
+      "type": "richtext"
+    }
+  }
+}

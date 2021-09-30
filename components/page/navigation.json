@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_page_navigations",
+  "info": {
+    "name": "navigation",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "menu": {
+      "type": "enumeration",
+      "enum": [
+        "home",
+        "services",
+        "staff",
+        "about",
+        "contact"
+      ],
+      "default": "home"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "phoneicon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "phonenumber": {
+      "type": "string"
+    }
+  }
+}

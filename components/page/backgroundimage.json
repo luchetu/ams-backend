@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_backgroundimages",
+  "info": {
+    "name": "backgroundimage",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_page_aboutcomponents",
+  "info": {
+    "name": "aboutcomponent",
+    "icon": "arrow-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "contentimage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "componentheadline": {
+      "type": "string"
+    },
+    "componentcontent": {
+      "type": "text"
+    },
+    "imageposition": {
+      "type": "enumeration",
+      "enum": [
+        "imgfirst",
+        "imgsecond"
+      ],
+      "default": "imgfirst"
+    },
+    "commentposition": {
+      "type": "enumeration",
+      "enum": [
+        "commentfirst",
+        "commentsecond"
+      ],
+      "default": "commentsecond"
+    },
+    "headlineposition": {
+      "type": "enumeration",
+      "enum": [
+        "headlinesecond",
+        "headlinefirst"
+      ],
+      "default": "headlinesecond"
+    }
+  }
+}

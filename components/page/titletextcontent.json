@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_titletextcontents",
+  "info": {
+    "name": "titletextcontent",
+    "icon": "arrow-circle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "headline": {
+      "type": "string"
+    },
+    "smallheadline": {
+      "type": "string"
+    },
+    "baseurl": {
+      "type": "string"
+    }
+  }
+}

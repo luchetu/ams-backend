@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_abouttestimonies",
+  "info": {
+    "name": "abouttestimony",
+    "icon": "balance-scale"
+  },
+  "options": {},
+  "attributes": {
+    "abouttestimonycomponent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.abouttestimonycomponent"
+    },
+    "aboutbackround": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

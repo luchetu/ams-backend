@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "servicespages",
+  "info": {
+    "name": "Servicespage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "servicesbanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.titletextcontent"
+    },
+    "servicescomponents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.servicescomponent"
+    },
+    "baseurl": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.baseurl"
+    },
+    "navigation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.navigation"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.footer"
+    }
+  }
+}

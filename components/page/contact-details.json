@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_contact_details",
+  "info": {
+    "name": "contact details",
+    "icon": "baseball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "phonenumber": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

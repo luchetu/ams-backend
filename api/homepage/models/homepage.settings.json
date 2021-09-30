@@ -1,0 +1,69 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "homepage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero"
+    },
+    "sectiononeheadlinecontent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.headlinecontent"
+    },
+    "whowearesection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.imagecontent"
+    },
+    "servicessection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.servicessection"
+    },
+    "servicebutton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button"
+    },
+    "testimonialsection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.testimonialsection"
+    },
+    "baseurl": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.baseurl"
+    },
+    "iconwithcaption": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.iconwithcaption"
+    },
+    "navigation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.navigation"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.footer"
+    }
+  }
+}

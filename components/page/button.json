@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_buttons",
+  "info": {
+    "name": "button",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

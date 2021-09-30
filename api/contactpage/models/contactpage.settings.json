@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "contactpages",
+  "info": {
+    "name": "contactpage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contactbanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.titletextcontent"
+    },
+    "contactdetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.contact-details"
+    },
+    "navigation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.navigation"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.footer"
+    }
+  }
+}

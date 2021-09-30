@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/staffpage",
+      "handler": "staffpage.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/staffpage",
+      "handler": "staffpage.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/staffpage",
+      "handler": "staffpage.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

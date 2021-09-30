@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_page_footers",
+  "info": {
+    "name": "footer",
+    "icon": "bath"
+  },
+  "options": {},
+  "attributes": {
+    "logotext": {
+      "type": "string"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "location": {
+      "type": "richtext"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

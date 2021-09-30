@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_meamberbigcontents",
+  "info": {
+    "name": "meamberbigcontent",
+    "icon": "arrow-up"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "fullname": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

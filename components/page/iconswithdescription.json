@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_iconswithdescriptions",
+  "info": {
+    "name": "iconswithdescription",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icontext": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_teamcomponents",
+  "info": {
+    "name": "teamcomponent",
+    "icon": "arrow-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "teamimage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "teamfullname": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_page_servicescomponents",
+  "info": {
+    "name": "servicescomponent",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "serviceimage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "imageposition": {
+      "type": "enumeration",
+      "enum": [
+        "imagefirst",
+        "imagesecond"
+      ],
+      "default": "imagefirst"
+    },
+    "contentposition": {
+      "type": "enumeration",
+      "enum": [
+        "contentfirst",
+        "contentsecond"
+      ],
+      "default": "contentsecond"
+    }
+  }
+}

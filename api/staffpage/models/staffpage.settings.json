@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "staffpages",
+  "info": {
+    "name": "Staffpage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "staffbannercontent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.headlinecontent"
+    },
+    "staffparagraph": {
+      "type": "text"
+    },
+    "teamcomponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.teamcomponent"
+    },
+    "meamberbigcontent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.meamberbigcontent"
+    },
+    "baseurl": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.baseurl"
+    },
+    "singleteamcomment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.singleteamcomment"
+    },
+    "navigation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.navigation"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.footer"
+    }
+  }
+}
